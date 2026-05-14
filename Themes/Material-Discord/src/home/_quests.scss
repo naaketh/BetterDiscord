@@ -135,6 +135,16 @@
     @include card-format($filled: true, $hover: true, $shadow: true);
 }
 
+#{ $questShelfCard } {
+    @include card-format($filled: true, $padding: var(--space-16), $hover: true, $shadow: true);
+}
+
+#{ $questShelfCardQuestLogo } {
+    background-color: var(--card-button-color);
+    border-radius: 50%;
+    border: none;
+}
+
 #{ $questCardHeroAssetCont },
 #{ $questCardImageOverlay } {
     aspect-ratio: 1280 / 400;

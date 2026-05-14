@@ -95,6 +95,12 @@
     border-radius: var(--media-radius);
 }
 
+#{ $embedV2Container } {
+	background-color: var(--attachment-color);
+	border-radius: var(--media-radius);
+	border: none;
+}
+
 #{ $embed } {
 	border-radius: var(--media-radius);
 
